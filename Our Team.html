@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mex Team Layout</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            /* font-family: Arial, sans-serif; */
+            /* text-align: center; */
+            /* margin: 0; */
+            /* padding: 20px; */
+        }
+        h1{
+        text-align: center;
+        margin-top: 20px
+        }
+        img{
+            float: right;
+            display: flex;
+            width: 35rem;
+        }
+        p{
+            margin: 2rem;
+            font-size: 1.1rem;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+        .section {
+            background-color: #f7f7f7;
+            padding: 1em;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .team-member {
+            background-color: #fff;
+            padding: 1em;
+            margin: 10px;
+            width: calc(33.33% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .team-memberss {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            text-align: center;
+        }
+        /* .team-memberss img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        } */
+
+        .team-memberss img {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .footer {
+            background-color: #cfe2f3;
+            padding: 30px;
+            text-align: center;
+            font-size: 16px;
+            color: #444;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <h1>Our Team</h1>
+    <img src="team1.avif" alt="Team Picture">
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iure iusto quasi ut praesentium, rerum excepturi ipsam ipsa quis voluptatum at fuga fugit eos odit, error repellat obcaecati quibusdam quas?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores molestias asperiores veritatis minima, porro cupiditate esse deserunt in totam, praesentium corporis quisquam dolor, illum odit pariatur odio. Sint, minima.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iure iusto quasi ut praesentium, rerum excepturi ipsam ipsa quis voluptatum at fuga fugit eos odit, error repellat obcaecati quibusdam quas?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam mollitia rem suscipit iusto reprehenderit numquam aspernatur quae quidem atque rerum quo et error perspiciatis, cumque aliquid neque labore vel nulla.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iure iusto quasi ut praesentium, rerum excepturi ipsam ipsa quis voluptatum at fuga fugit eos odit, error repellat obcaecati quibusdam quas?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi ducimus ut obcaecati, rem quia, labore quidem maxime porro modi laborum accusantium fuga est tempore exercitationem non atque, ab impedit?
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, iure iusto quasi ut praesentium, rerum excepturi ipsam ipsa quis voluptatum at fuga fugit eos odit, error repellat obcaecati quibusdam quas?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sequi ducimus ut obcaecati, rem quia, labore quidem maxime porro modi laborum accusantium fuga est tempore exercitationem non atque, ab impedit?
+    </p>
+
+    <h2>Team Leaders</h2>
+    <div class="team-container">
+        <div class="team-memberss">
+            <img src="meninsuits.jpeg" alt="Team Member">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="images6.jpeg" alt="Team Member">
+            <h3>Mason Lee</h3>
+            <p>Software Engineer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="van.jpeg" alt="Team Member">
+            <h3>Van Vicar</h3>
+            <p>UI/UX Designer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="images3.jpeg" alt="Team Member">
+            <h3>Liam Reed</h3>
+            <p>Full Stack Developer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="images4.jpeg" alt="Team Member">
+            <h3>Lucus Brooks</h3>
+            <p>Software Developer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="images5.jpeg" alt="Team Member">
+            <h3>Logan Hall</h3>
+            <p>Mobile Developer</p>
+        </div>
+        <div class="team-memberss">
+            <img src="Mex.jpg" alt="Team Member">
+            <h3>Mexically</h3>
+            <p>Web & Software Developer</p>
+        </div>
+    </div>
+
+    <main>
+        <section id="our-team">
+            <h2>Team Headers</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>Mexcally</h3>
+                    <p>Position: CEO</p>
+                    <p>Bio: Mex is the founder and CEO of our company, responsible for strategic planning and overall direction.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Callistus</h3>
+                    <p>Position: Marketing Manager</p>
+                    <p>Bio: Callistus is our marketing manager and is responsible for our online presence, Developing and implementing marketing strageties to reach new heights.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Kingsley Raymond</h3>
+                    <p>Position: Sales Manager</p>
+                    <p>Bio: Raymond is our sales manager and is responsible for building relationships with our clients, and driving revenue growth.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Cross Johnson</h3>
+                    <p>Position: Creative Manager</p>
+                    <p>Bio: Johnson oversees the Creative vision of our company, Developing innovatives designs and solutions that capives our audience.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Dominic Amabilis</h3>
+                    <p>Position: Sales Manager</p>
+                    <p>Bio: Amabilis responsible for the day-to-day operations of the company, ensuring seamless and solutions that captivate our audience.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Gelasia Eligius</h3>
+                    <p>Position: Sales Manager</p>
+                    <p>Bio: Eligius dedicated to delivering expceptional customer experiences, providing supports and guidances to ensure customer satisfaction.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer">
+        <footer>
+            <p>&copy; 2025 Mexically. All rights reserved.</p>
+            <div>
+                <a href="https://facebook.com">Facebook</a> | 
+                <a href="https://twitter.com">Twitter</a> | 
+                <a href="https://linkedin.com">LinkedIn</a>
+            </div>
+        </footer>
+    </div>
+<a href="index.html">Go Back!</a>
+</body>
+</html>
